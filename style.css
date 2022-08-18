@@ -1,0 +1,48 @@
+/* *{
+    border: 2px solid #ddd;
+    padding:15px;
+    margin:15px;
+}
+
+html{
+    margin:0;
+    padding:0;
+}
+
+body{
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+section#a p{
+    background-color: cyan!important;
+}
+
+section#a p.p{
+    background-color: pink;
+}
+
+div.container section#a p.p{
+    background-color: brown;    
+}
+
+div.container section#a.tes p.p{
+    background-color: lightcoral;    
+}
+
+section#b p#paragrafb{
+    background-color: blue!important;
+}
+
+ul#a li:nth-last-child(3){
+    background-color: green;
+}
+
+/* section#a.tes p{
+    background-color: brown;
+} */
+
+/* 
+    tagline<class<id<inline<!important
+
+*/

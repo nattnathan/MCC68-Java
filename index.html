@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jqc-1.12.4/dt-1.12.1/b-2.2.3/sl-1.4.0/datatables.min.css"/>
+    <link rel="stylesheet" type="text/css" href="Editor-2.0.8/css/editor.dataTables.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+            </a>
+            <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
+        </ul>
+    </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->    
+
+    <div class="container mt-3">
+        <h1>List Starwars</h1>
+        
+        <table class="table table-striped table-hover shadow" id="tablePoke">
+            <thead class="thead-dark">
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="tbodyPoke">
+                
+            </tbody>
+        </table>
+    </div>
+
+    
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalPoke" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            ...
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    
+
+    <div class="container">
+        <h2>grid system</h2>
+        <div class="row border">
+            <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus doloremque expedita quia incidunt facere excepturi, cum ipsam dolore impedit ipsum eos mollitia non repellat nam praesentium natus? Culpa, minus iste.asldnalksdjalks aslkdjalsdjlkasjd
+            </div>
+            <div class="col-8">
+                <div class="row border">
+                    <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat non totam nobis? Eos neque deleniti sed hic vero quos obcaecati quidem, voluptate distinctio iste nesciunt facilis itaque optio eligendi tempore?
+                    </div>
+                </div>
+                <div class="row border">
+                    <div class="col">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quia enim quo quas illo nostrum eum tempora deserunt quod, voluptates suscipit id totam accusamus sint possimus inventore ut quidem pariatur.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <br><br><br>
+
+
+
+    <!-- END OF MAIN -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jqc-1.12.4/dt-1.12.1/b-2.2.3/sl-1.4.0/datatables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
